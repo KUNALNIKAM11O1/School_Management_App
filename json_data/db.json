@@ -1,0 +1,223 @@
+{
+  "admin": [
+    {
+      "id": "admin-1",
+      "usergmail": "admin@gmail.com",
+      "email": "admin@gmail.com",
+      "password": "#admin678",
+      "role": "admin"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "teacher-1",
+      "usergmail": "pandit@gmail.com",
+      "email": "pandit@gmail.com",
+      "password": "#pandit1",
+      "name": "Pandit",
+      "subject": "Math",
+      "phone": "9876543210"
+    },
+    {
+      "id": "teacher-2",
+      "usergmail": "joshi@gmail.com",
+      "email": "joshi@gmail.com",
+      "password": "#joshi2",
+      "name": "Joshi",
+      "subject": "Science",
+      "phone": "9876543211"
+    },
+    {
+      "id": "teacher-3",
+      "usergmail": "pawar@gmail.com",
+      "email": "pawar@gmail.com",
+      "password": "#pawar3",
+      "name": "Pawar",
+      "subject": "English",
+      "phone": "9876543212"
+    },
+    {
+      "id": "teacher-4",
+      "usergmail": "bagwan@gmail.com",
+      "email": "bagwan@gmail.com",
+      "password": "#bagwan4",
+      "name": "Bagwan",
+      "subject": "Hsitory",
+      "phone": "9876543213"
+    }
+  ],
+  "students": [
+    {
+      "id": "student-1",
+      "usergmail": "anurag@gmail.com",
+      "email": "anurag@gmail.com",
+      "password": "#anurag1",
+      "name": "Anurag Babar",
+      "rollNo": "101",
+      "classIdx": "10-A",
+      "address": "109 St",
+      "phone": "1234567891"
+    },
+    {
+      "id": "student-2",
+      "usergmail": "krishna@gmail.com",
+      "email": "krishna@gmail.com",
+      "password": "#krishna2",
+      "name": "Krishna Bhoite",
+      "rollNo": "102",
+      "classIdx": "10-A",
+      "address": "119 St",
+      "phone": "1234567892"
+    },
+    {
+      "id": "student-3",
+      "usergmail": "priya@gmail.com",
+      "email": "priya@gmail.com",
+      "password": "#priya3",
+      "name": "Priya Bhosale",
+      "rollNo": "103",
+      "classIdx": "10-A",
+      "address": "120 St",
+      "phone": "1234567893"
+    },
+    {
+      "id": "student-4",
+      "usergmail": "deshmukh@gmail.com",
+      "email": "deshmukh@gmail.com",
+      "password": "#atharva4",
+      "name": "Atharva Deshmukh",
+      "rollNo": "104",
+      "classIdx": "10-A",
+      "address": "121 St",
+      "phone": "1234567894"
+    },
+    {
+      "id": "2c4bd00c-bc83-4492-be42-35fa72fbcda8",
+      "name": "Jay Patel",
+      "rollNo": "201",
+      "classIdx": "10-B",
+      "address": "102 St",
+      "phone": "7665544321",
+      "usergmail": "jpatel@gmail.com",
+      "password": "#patel2"
+    },
+    {
+      "id": "b6e074bb-c412-4f91-bf24-88b19b2d80f4",
+      "name": "Pranav Mane",
+      "rollNo": "202",
+      "classIdx": "10-B",
+      "address": "105 St",
+      "phone": "7665544300",
+      "usergmail": "pmane@gmail.com",
+      "password": "#pmane2"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-1",
+      "name": "10-A",
+      "teacherId": "teacher-1"
+    },
+    {
+      "id": "class-1",
+      "name": "10-A",
+      "teacherId": "teacher-2"
+    },
+    {
+      "id": "class-1",
+      "name": "10-A",
+      "teacherId": "teacher-3"
+    },
+    {
+      "id": "class-1",
+      "name": "10-A",
+      "teacherId": "teacher-4"
+    }
+  ],
+  "attendance": [
+    {
+      "date": "2026-02-06",
+      "classIdx": "10-A",
+      "records": {
+        "student-1": "present",
+        "student-2": "present",
+        "student-3": "present",
+        "student-4": "present",
+        "student-5": "present"
+      },
+      "id": "5a5673f7-c638-4410-980e-85418bb34eaa"
+    }
+  ],
+  "marks": [
+    {
+      "id": "392270d5-8e70-44e9-930c-e6d44e0bc089",
+      "classIdx": "10-A",
+      "subject": "Math",
+      "examType": "Midterm",
+      "records": {
+        "student-1": "55",
+        "student-2": "72",
+        "student-3": "68",
+        "student-4": "51",
+        "student-5": "58"
+      }
+    },
+    {
+      "id": "7756ae58-cfdb-4760-a53e-12ddf8c89f21",
+      "classIdx": "10-A",
+      "subject": "Science",
+      "examType": "Midterm",
+      "records": {
+        "student-1": "65",
+        "student-2": "76",
+        "student-3": "73",
+        "student-4": "58",
+        "student-5": "60"
+      }
+    },
+    {
+      "id": "2e14a043-b586-4760-a99f-87cbab725800",
+      "classIdx": "10-A",
+      "subject": "English",
+      "examType": "Midterm",
+      "records": {
+        "student-1": "66",
+        "student-2": "73",
+        "student-3": "75",
+        "student-4": "65",
+        "student-5": "62"
+      }
+    },
+    {
+      "id": "c690c928-9755-49da-abca-85c9d1c3a888",
+      "classIdx": "10-A",
+      "subject": "History",
+      "examType": "Midterm",
+      "records": {
+        "student-1": "74",
+        "student-2": "76",
+        "student-3": "78",
+        "student-4": "72",
+        "student-5": "68"
+      }
+    }
+  ],
+  "fees": [
+    {
+      "id": "a66b70d3-59eb-4887-82c5-d4409e12f1ee",
+      "studentId": "student-4",
+      "amount": "20000",
+      "status": "Pending",
+      "date": "2026-02-06"
+    },
+    {
+      "id": "3ba02a10-a8a1-426c-9184-797157814250",
+      "studentId": "student-1",
+      "amount": "30000",
+      "status": "Pending",
+      "date": "2026-02-06"
+    }
+  ],
+  "announcements": [],
+  "assignments": []
+}
